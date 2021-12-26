@@ -1,0 +1,48 @@
+<router-outlet></router-outlet>
+<p>연습용 게시판 만들기입니다.</p>
+<div class="tb">
+  <table class="tb">
+    <thead>
+    <tr>
+      <th class="tc">게시글 번호</th>
+      <th class="tc">제목</th>
+      <th class="tc">작성자</th>
+      <th class="tc">조회수</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="tt">1</td>
+      <td class="tt">제목입니다.</td>
+      <td class="tt">가우닝</td>
+      <td class="tt">33</td>
+    </tr>
+    <tr>
+      <td class="tt">2</td>
+      <td class="tt">두번째 제목입니다.</td>
+      <td class="tt">창쥬쓰</td>
+      <td class="tt">12</td>
+    </tr>
+    <tr>
+      <td class="tt">3</td>
+      <td class="tt">세번째 제목입니다.</td>
+      <td class="tt">혜림쓰</td>
+      <td class="tt">10</td>
+    </tr>
+    <tr>
+      <td class="tt">4</td>
+      <td class="tt">네번째 제목입니다.</td>
+      <td class="tt">선모쓰</td>
+      <td class="tt">9</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <p class="box">게시글 작성으로 이동 :
+    <input type="text" placeholder="버튼누르면 됩니다."/>
+    <button type="button" (click)="movecreate()">이동</button>
+  </p>
+</div>
+<!--<p>board-list works!</p>-->
+<!--<p>게시글넘버, 제목, 작성자, 조회수 (table태그 사용)</p>-->
