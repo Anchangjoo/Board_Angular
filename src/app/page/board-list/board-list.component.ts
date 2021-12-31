@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-board-list',
@@ -7,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoardListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router : Router) { }
 
   ngOnInit(): void {
   }
+
   movecreate() {
-    location.href='http://localhost:4200/boardcreate'
+    this.router.navigate(['/boardcreate'])
   }
 }

@@ -12,4 +12,7 @@ export class BoardDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  movedlist() {
+    location.href='http://localhost:4200/boardList'
+  }
 }
