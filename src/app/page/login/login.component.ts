@@ -11,8 +11,8 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  movenaver() {
-    location.href='https://www.naver.com/'
+  movelist() {
+    location.href='http://localhost:4200/boardList'
   }
 
 }

@@ -2,11 +2,22 @@
   text-align: center;
   border: 1px solid;
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
   padding-left: 5px;
+  margin: 100px auto auto auto;
 }
 
 td{
   border: 1px solid;
   border-collapse: collapse;
+  height: 30px;
+}
+
+.detail_td {
+  height: 100px;
+}
+
+.button {
+  text-align: right;
+  font-weight: bolder;
 }
